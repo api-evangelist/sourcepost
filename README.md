@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-SourcePost is a directory for AI agents, providing a searchable catalog of suppliers, services, APIs and data sources that agents need to accomplish tasks. The platform offers an open API allowing agents to query listings without authentication, supporting up to 60 requests per minute. Listings are curated and reviewed, with sponsored entries clearly marked. The service does not require user accounts, cookies, or trackers.
+SourcePost is a directory for AI agents, providing a searchable catalog of suppliers, services, APIs and data sources that agents need to accomplish tasks. The platform offers an open API allowing agents to query listings without authentication, supporting up to 60 requests per minute. Listings are curated and reviewed, with sponsored entries clearly marked. The service does not require user accounts, cookies, or trackers. It emphasizes privacy, does not store IP addresses, and offers multilingual support with documentation in English and Spanish.
 
-**Areas:** AI · Directory · Suppliers · APIs · Data · Agents
+**Areas:** Artificial Intelligence · Directory · Suppliers · Data · Agents
 
 ## SourcePost on APIs.io
 
@@ -86,7 +86,16 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Sourcepost Agentic Access](https://apis.io/agentic-access/sourcepost/sourcepost-agentic-access/)
+- [SourcePost Agentic Access](https://apis.io/agentic-access/sourcepost/sourcepost-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [InterestIn](https://apis.io/schemas/sourcepost/sourcepost-interest-in/)
+- [InterestOut](https://apis.io/schemas/sourcepost/sourcepost-interest-out/)
+- [ListingOut](https://apis.io/schemas/sourcepost/sourcepost-listing-out/)
+- [SearchResponse](https://apis.io/schemas/sourcepost/sourcepost-search-response/)
 
 #### Governance rules (1)
 
@@ -94,24 +103,31 @@ Spectral rulesets for the provider's contracts.
 
 - [SourcePost API Rules](https://apis.io/rules/sourcepost/sourcepost-rules/)
 
-#### Security (2)
+#### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Sourcepost Authentication](https://apis.io/security/sourcepost/sourcepost-authentication/)
-- [Sourcepost Domain Security](https://apis.io/security/sourcepost/sourcepost-domain-security/)
+- [SourcePost Authentication](https://apis.io/security/sourcepost/sourcepost-authentication/)
+- [SourcePost Domain Security](https://apis.io/security/sourcepost/sourcepost-domain-security/)
+- [SourcePost Vulnerability Disclosure](https://apis.io/security/sourcepost/sourcepost-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Sourcepost Scopes](https://apis.io/scopes/sourcepost/sourcepost-scopes/)
+- [SourcePost Scopes](https://apis.io/scopes/sourcepost/sourcepost-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SourcePost Plans Pricing](https://apis.io/plans/sourcepost/sourcepost-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Sourcepost Rate Limits](https://apis.io/rate-limits/sourcepost/sourcepost-rate-limits/)
+- [SourcePost Rate Limits](https://apis.io/rate-limits/sourcepost/sourcepost-rate-limits/)
 
 ## Where to find this API
 
@@ -121,30 +137,31 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Documentation](https://sourcepost.dev/docs)
 - [Getting started](https://sourcepost.dev/docs)
 - [API reference](https://sourcepost.dev/openapi.json)
+- [Pricing](https://sourcepost.dev/docs)
 - [Terms of service](https://sourcepost.dev/legal?lang=en)
 - [Privacy policy](https://sourcepost.dev/privacy?lang=en)
 
 ## API Evangelist rating
 
-**Kin Score 42.1** — developing · rubric 0.26.0 · scored 2026-11-02
+**Kin Score 30.7** — thin · rubric 0.27.0 · scored 2026-11-06
 
 | Facet | Score |
 |---|---|
 | Discoverability | 62.5 |
-| Contract quality | 43.8 |
-| Contract governance | 79.1 |
-| Operational transparency | 18.9 |
-| Developer ergonomics | 35.0 |
-| Access clarity | 21.1 |
+| Contract quality | 46.8 |
+| Contract governance | 22.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 20.7 |
+| Access clarity | 10.5 |
 
-**Agent readiness 42.8** — agent-ready (gated down from agent-native)
+**Agent readiness 35.2** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | verified |
@@ -164,7 +181,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sourcepost/](https://apis.io/providers/sourcepost/).
 

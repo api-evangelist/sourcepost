@@ -72,11 +72,12 @@ SourcePost is a directory for AI agents, providing a searchable catalog of suppl
 
 Everything profiled for SourcePost is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sourcepost/](https://apis.io/providers/sourcepost/)** — or go straight to one of the APIs or properties below.
 
-### APIs (3)
+### APIs (4)
 
 - [SourcePost API](https://apis.io/apis/sourcepost/sourcepost-api/) — SourcePost is a directory where AI agents find suppliers, services and data sources for their task.
 - [SourcePost Interest API](https://apis.io/apis/sourcepost/sourcepost-interest-api/) — The interest API from SourcePost — 1 operation(s) for interest.
 - [SourcePost Listings API](https://apis.io/apis/sourcepost/sourcepost-listings-api/) — The listings API from SourcePost — 2 operation(s) for listings.
+- [SourcePost System API](https://apis.io/apis/sourcepost/sourcepost-system-api/) — Service status.
 
 ### Published properties
 
@@ -96,6 +97,12 @@ The data models the API reads and writes.
 - [InterestOut](https://apis.io/schemas/sourcepost/sourcepost-interest-out/)
 - [ListingOut](https://apis.io/schemas/sourcepost/sourcepost-listing-out/)
 - [SearchResponse](https://apis.io/schemas/sourcepost/sourcepost-search-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sourcepost Context](https://apis.io/jsonld/sourcepost/sourcepost-context/)
 
 #### Governance rules (1)
 
